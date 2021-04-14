@@ -63,7 +63,7 @@ services:
       - mongo
 
     extra_hosts:
-      - "localhost:192.168.0.6"
+      - "localhost:172.16.35.11"
 
     environment:
       EMQX_NAME: ioticos-gl
